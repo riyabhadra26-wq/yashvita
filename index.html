@@ -1,0 +1,33 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>What Should I Eat?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>🍴 What Should I Eat?</h1>
+<p>Your Smart Food Assistant 🤖</p>
+
+<input id="food" placeholder="Enter ingredients at home">
+<select id="mood">
+<option>Happy</option><option>Sad</option><option>Tired</option>
+<option>Spicy</option><option>Healthy</option>
+</select>
+
+<select id="cuisine">
+<option>Indian</option><option>Continental</option><option>Any</option>
+</select>
+
+<input id="budget" type="number" placeholder="Budget ₹">
+
+<label><input type="checkbox" id="healthy"> 💚 Healthy Mode</label>
+
+<button onclick="suggest()">✨ Suggest Food</button>
+<button onclick="nearby()">📍 Nearby Restaurants</button>
+
+<div id="result"></div>
+<script src="script.js"></script>
+</body>
+</html>
+```
