@@ -1,4 +1,4 @@
-```javascript
+
 function suggest(){
 let f=document.getElementById("food").value.toLowerCase();
 let m=document.getElementById("mood").value;
@@ -26,4 +26,3 @@ document.getElementById("result").innerHTML="<h2>"+r+"</h2>";
 function nearby(){
 window.open("https://www.google.com/maps/search/restaurants+near+me");
 }
-```
